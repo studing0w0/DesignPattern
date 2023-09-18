@@ -1,3 +1,5 @@
+package forecast;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,6 +40,7 @@ public class WeatherData implements Subject{
         this.temperature = temperature;
         this.humidity = humidity;
         this.pressure = pressure;
+        measurementsChange();
     }
     
     
